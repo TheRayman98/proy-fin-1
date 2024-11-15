@@ -15,3 +15,4 @@ git remote add origin <aquí va la url>
 git commit -m "<aquí va el comentario>"
 git push origin main
 ```
+#### Paso 4: Se comenzó a hacer la página en index.html utilizando html:5 y completando con el tabulador, posteriormente se cambió el idioma de "en" a "es" porque se la página está en español y en <title> se puso como título "Proyecto Final de DEV.F" y se empezó a trabajar en el <body>
