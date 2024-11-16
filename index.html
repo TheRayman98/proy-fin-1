@@ -9,6 +9,179 @@
     <h1>Panadería y Repostería Lucía Fernanda</h1>
     <h2>Trayéndoles pan y repostería fina desde 2023</h2>
     <img src="https://i.imgur.com/YreqH5D.jpeg" alt="Foto de lucia fernanda" width="600" height="768">
-    <h4>figura 1. Foto de la dueña Lucia Fernanda</h4>
+    <p>figura 1. Foto de la dueña Lucia Fernanda</p>
+<form>
+    <label>Nombre
+        <input
+        type="text"
+        name="nombre"
+        placeholder="Ingresa tu nombre"
+        maxlength="10"
+        minlength="4"
+        required
+        />
+    </label>
+    <br>
+    <label>
+        Apellido paterno
+        <input
+        type="text"
+        name="a_paterno"
+        placeholder="Ingresa tu apellido paterno"
+        maxlength="10"
+        minlength="4"
+        required
+        />
+    </label>
+    <br>
+    <label>
+        Apellido materno
+        <input
+        type="text"
+        name="a_materno"
+        placeholder="Ingresa tu apellido materno"
+        maxlength="10"
+        minlength="4"
+        required
+        />
+    </label>
+    <br>
+    <label>
+        Correo electronico
+        <input
+        type="text"
+        name="email"
+        placeholder="Ingresa tu correo electrónico"
+        maxlength="20"
+        minlength="4"
+        required
+        /> 
+    </label>
+    <br>
+    <label>
+        Fecha de entrega apropiada
+        <input
+        type="date"
+        name="f_entrega"
+        placeholder="Ingrese la fecha de entrega apropiada para su pedido"
+        required
+        /> 
+    </label>
+    <br>
+    <label>
+        Hora de entrega apropiada
+        <input
+        type="time"
+        name="h_entrega"
+        placeholder="Ingrese la hora de entrega apropiada para su pedido"
+        required
+        /> 
+    </label>
+    <br>
+    <label>
+        Dirección de entrega
+        <textarea
+        name="Dirección"
+        rows="5"
+        cols="25"
+        placeholder="Ingrese la Dirección a la que se entregará su pedido"
+    ></textarea></label>
+    <br>
+    <label>
+        Seleccione su tipo de pedido
+    <select name="Tipo de pedido">
+        <option value="Express">Express</option>
+        <option value="Deluxe">Deluxe</option>
+        <option value="Premium">Premium</option>
+        <option value="Paquete de Regalo">Paquete de Regalo</option>
+    </select>
+    <br>
+    <label>
+        <input 
+            type="radio"
+            name="Baguettes"
+            value="Orden de Baguettes"
+            >
+        Orden de Baguettes
+    </label>
+    <br>
+    <label>
+        <input 
+            type="radio"
+            name="Cuernitos"
+            value="Orden de Cuernitos"
+            >
+        Orden de Cuernitos
+    </label>
+    <br>
+    <label>
+        <input 
+            type="radio"
+            name="Pay"
+            value="Pay Completo"
+            >
+        Pay de Queso Completo
+    </label>
+    <br>
+    <label>
+        <input 
+            type="radio"
+            name="Donas"
+            value="Docena de Donas"
+            >
+        Docena de Donas
+    </label>
+    <br>
+    <label>
+        <input 
+            type="radio"
+            name="Conchas"
+            value="Orden de Conchas"
+            >
+        Orden de Conchas
+    </label>
+    <br>
+    <label>
+        <input 
+            type="radio"
+            name="Rebanadas"
+            value="Orden de Rebanadas"
+            >
+        Orden de Rebanadas de Chocolate
+    </label>
+    <br>
+    <label>
+        <input 
+            type="radio"
+            name="Pastel"
+            value="Pastel"
+            >
+        Pastel entero (Favor de especificar en notas las especificaciones del pastel y seleccionar pago contra entrega)
+    </label>
+    <br>
+    <label>
+        Notas adicionales a su pedido
+        <textarea
+        name="Notas"
+        rows="5"
+        cols="25"
+        placeholder="Ingrese aquí alergias, consideraciones especiales o en caso de pedir un pastel, las especificaciones del mismo."
+    ></textarea></label>
+    </label>
+    <br>
+    <label>
+        Forma de Pago
+    <select name="Forma de Pago">
+        <option value="Crédito">Tarjeta de Crédito</option>
+        <option value="Débito">Tarjeta de Débito</option>
+        <option value="Transferencia">Transferencia Bancaria</option>
+        <option value="Efectivo">Pago contra entrega en Efectivo</option>
+        <option value="Tarjeta">Pago contra entrega con Tarjeta</option>
+    </select>
+    </label>
+    <br>
+    <button type="submit">Envir Información</button>
+    <button type="reset">Resetear</button>
+</form>
 </body>
 </html>
