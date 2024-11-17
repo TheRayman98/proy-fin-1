@@ -15,4 +15,6 @@ git remote add origin <aquí va la url>
 git commit -m "<aquí va el comentario>"
 git push origin main
 ```
-#### Paso 4: Se comenzó a hacer la página en index.html utilizando html:5 y completando con el tabulador, posteriormente se cambió el idioma de "en" a "es" porque se la página está en español y en <title> se puso como título "Proyecto Final de DEV.F" y se empezó a trabajar en el <body>
+#### Paso 4: Se comenzó a hacer la página en index.html utilizando html:5 y completando con el tabulador, posteriormente se cambió el idioma de "en" a "es" dentro de la etiqueta html porque se la página está en español y en <title> se puso como título "Proyecto Final de DEV.F" y se empezó a trabajar en el <body>. Los metadatos de la etiqueta meta, no se modificaron ya que el set de caracteres a utilizar puede ser el de UTF-8
+#### Paso 5: Se insertaron los encabezados de la página con las etiquetas h y el número correspondiente a su tamaño, se insertó una imagen que se subió previamente a imgur utilizando la etiqueta img y src para la url, y se reajustó el tamaño de la imagen para que no fuera mucho mas grande que los encabezados de la página web.
+#### Paso 6: Los bloques de texto se insertaron usando la etiqueta <p>, Los íconos para ubereats y rappi se insertaron con la etiqueta <img> y se utilizó href para poner el enlace al que quermeos que nos redirijan. 
